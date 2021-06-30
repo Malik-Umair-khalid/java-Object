@@ -52,4 +52,15 @@
 // ]
 // console.log(studentsDetails)
 
+function submit(){
+    var naMe = document.getElementById("name")
+  naMe = naMe.value 
+    var gender = document.getElementsByName("gender")
+    for (let i = 0; i < gender.length; i++) {
+        if(gender[i].checked){
+            console.log(gender[i].value)
+        }
 
+        
+    }
+}
