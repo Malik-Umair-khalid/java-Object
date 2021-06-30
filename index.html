@@ -8,12 +8,26 @@
 </head>
 <body>
 
-        <input type="text" id="name">
-        <input type="radio"  value="male" name="gender">
+    <input type="text" id="name" placeholder="Enter Your Name"> <br>
+    <br>
+    <input type="text" id="address" placeholder="Enter Your Address"> <br>
+    <br>
+    <p>Select Your Education</p>
+    <select name="" id="Edu">
+        <option value="matric">Matric</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Graduation">Graduation</option>
+        <option value="Masters">Masters</option>
+        <option value="Higher">Higher</option>
+    </select>
+    <p>Select Your gender</p>
+        <input type="radio"  value="male" name="gender"> 
         <label for="gender">Male</label>
         <input type="radio" value="female" name="gender">
         <label for="gender">female</label>
-        <input type="text" id="name">
+        <input type="radio" value="Others" name="gender">
+        <label for="gender">Others</label> <br>
+        <br>
         <button id="submit" onclick="submit()">Submit</button>
    
    
